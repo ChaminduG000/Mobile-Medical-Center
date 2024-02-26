@@ -1,0 +1,118 @@
+.welcome-page-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.welcome-container{
+  position: relative;
+  z-index: 0;
+  text-align: center;
+  font-family: 'poppins';
+  width: 90%;
+  max-width:1200px;
+  margin: 8rem 0 3rem 1rem;
+}
+
+.welcome-content h1 {
+  color: #5B3290;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+.welcome-buttons {
+  margin-bottom: 2rem;
+}
+
+.welcome-sign-up-button, .welcome-log-in-button {
+  display: inline-block; 
+  text-decoration: none;  
+  color: inherit;        
+  text-align: center;     
+  line-height: 2.5rem;
+  width: 8rem;
+  border-radius: 2rem;
+  border: 1px solid #9B58DD;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease; 
+}
+
+.welcome-sign-up-button {
+  background: #DEB4FF;
+}
+
+.welcome-log-in-button {
+  background: #FDFBFF;
+  margin-left: 20px;
+}
+
+.welcome-sign-up-button:hover {
+  background: #C59CE5;
+}
+
+.welcome-log-in-button:hover {
+  background: #EDE8F2;
+}
+
+  /*----------------------tab----------------------------------*/
+
+
+
+@media screen and (min-width: 768px) {
+  
+  .welcome-container{
+    margin: 12rem 0 3rem 3rem;
+  }
+  
+  .welcome-content h1 {
+    font-size: 3rem;
+  } 
+
+  .welcome-buttons {
+    margin-bottom: 3rem;
+  }
+
+
+  video {
+    text-align: center;
+  }
+  
+  .welcome-sign-up-button, .welcome-log-in-button {     
+    line-height: 4rem;
+    width: 14rem;
+    font-size: 1.5rem;
+  }}
+
+
+  /*----------------------desktop---------------------------------*/
+
+
+
+@media screen and (min-width: 1200px) {
+  
+  .welcome-container{
+    margin: 15rem 0 3rem 3rem;
+  }
+  
+  .welcome-content h1 {
+    font-size: 4rem;
+  } 
+
+  .welcome-buttons {
+    margin-bottom: 3rem;
+  }
+
+  .video {
+    width: 100%;
+    text-align: center;  }
+  
+  .welcome-sign-up-button, .welcome-log-in-button {     
+    line-height: 4rem;
+    width: 14rem;
+    font-size: 1.8rem;
+  }}

@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&display=swap');
+
+.footer-container { 
+  width: 100%;
+  text-align: center;
+  color: #502274;
+  font-family: 'Libre Caslon Text', serif;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 400;
+  z-index: 1;
+  
+}
+  
+  .underline {
+    text-decoration: underline;
+  }
+
+
+  @media only screen and (min-width: 768px) {
+    .footer-container {
+      font-size: 1.3rem;  
+      bottom: 1rem; 
+      position: relative; 
+    }
+  }
+  
+  
+  @media only screen and (min-width: 1200px) {
+    .footer-container {
+      font-size: 1.6rem;  
+    }
+  }
+  
+  
+  
+  
+  

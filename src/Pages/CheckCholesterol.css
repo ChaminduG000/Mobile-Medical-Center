@@ -1,0 +1,358 @@
+.cholesterol-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.cholesterol-container{
+    margin-top: 4.2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.cholesterol-heading{
+    width: 100%;
+    line-height: 2rem;
+    background: #BF94D4;   
+}
+
+.cholesterol-heading h1 {
+    color: #740A8F;
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+
+.cholesterol-content {
+    margin-top: 4rem;
+    margin-left: 0; 
+    font-family: 'Frank Ruhl Libre', sans-serif;
+}
+
+.cholesterol-page-left-section {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    gap: 3rem; 
+}
+
+.cholesterol-steps-textbox {
+    gap: 1rem; 
+    border: 1px solid #ccc; 
+    border-radius: 2rem; 
+    width: 20rem;
+    height: 25rem;
+    background: #C0AAFE;
+}
+
+.cholesterol-step-image {
+    width: 14rem;
+    height: 8rem;
+    margin: 2rem 3rem 1rem 3rem;
+    border-radius: 1rem;
+}
+
+.cholesterol-page-left-section h2{
+    color: #670B92;
+    font-size: 1rem;
+    margin-left: 1rem;
+    font-weight: 400;
+}
+
+
+.cholesterol-step-texts p {
+    color: #670B92;
+    font-size: 1rem;
+    margin: 0 1.5rem 1rem 2rem;
+}
+
+.cholesterol-second-image{
+    width: 20rem;
+    height: 10rem;
+    margin-bottom: -2rem;
+    border-radius: 1rem;
+}
+
+.cholesterol-page-right-section {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 2rem 3rem 2rem;
+    gap: 2rem;
+}
+
+.cholesterol-page-textbox {
+    width: 20rem;
+    height: 25rem;
+    background: #D9C5F4;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cholesterol-tick-image {
+    width: 6rem;
+    height: 6rem;
+}
+
+.cholesterol-page-textbox h2 {
+    color: #36174E;
+    font-size: 1rem;
+}
+
+.cholesterol-info, 
+.cholesterol-level {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.cholesterol-info {
+    color: #2BA1C7;
+}
+
+.cholesterol-level {
+    color: #AB0E0E;
+}
+
+.cholesterol-test-now-btn {
+    width: 10rem;
+    height: 3rem;
+    border-radius: 2rem;
+    background: #95C9F9;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+}
+
+.cholesterol-back-btn{
+    display: flex;
+    align-items: center;
+    justify-content:right;
+    gap: 0; 
+    color: #1B4E9B;
+    font-family: 'DM Serif Display', serif;
+    font-size: 1rem; 
+    text-decoration: none;
+    margin-right: 2rem;
+}
+
+.cholesterol-back-arrow{
+    width: 1rem;
+    height: 1rem;
+}
+
+
+/*------------------tab--------------------*/
+
+@media only screen and (min-width: 768px){
+
+    .cholesterol-container{
+        margin-top: 6.5rem;
+    }
+    
+    .cholesterol-heading{
+        line-height: 4rem;    
+    }
+    
+    .cholesterol-heading h1 {
+        font-size: 2.5rem;
+        margin-left:3rem;
+    }
+    
+    .cholesterol-content {
+        flex-direction: column;
+        margin-top: 4rem;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    
+    .cholesterol-page-left-section {
+        gap: 3rem; 
+        margin-left: 0;
+        align-items: center;
+    }
+    
+    .cholesterol-steps-textbox {
+        gap:0; 
+        border-radius: 1rem; 
+        align-items: center;
+        width: 30rem;
+        height: 35rem;
+    }
+    
+    .cholesterol-step-image {
+        width: 20rem;
+        height: 11rem;
+        padding: 1rem;
+        border-radius: 1.5rem;
+        margin: 1rem 4rem 1rem 4rem;
+    }
+    
+    .cholesterol-page-left-section h2{
+        font-size: 1.5rem;
+        width: 70%;
+    }
+    
+    .cholesterol-step-texts p {
+        font-size: 1.5rem;
+        margin: 0 3rem 1rem 3rem;
+    }
+    
+    .cholesterol-second-image{
+        width: 30rem;
+        height: 15rem;
+    }
+    
+    .cholesterol-page-right-section {
+        margin-left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .cholesterol-page-textbox {
+        width: 30rem;
+        height: 35rem;
+        margin-top: 1rem;
+    }
+    
+    .cholesterol-tick-image {
+        width: 8rem;
+        height: 8rem;
+    }
+    
+    .cholesterol-page-textbox h2 {
+        font-size: 1.5rem;
+    }
+    
+    .cholesterol-info, 
+    .cholesterol-level {
+        font-size: 1.5rem;
+    }
+    
+    .cholesterol-test-now-btn {
+        width: 12rem;
+        height: 4rem;
+        font-size: 1.5rem;
+    }
+    
+    .cholesterol-back-btn{
+        gap: 0; 
+        font-size: 1.5rem;
+        margin-left: 26rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .cholesterol-back-arrow{
+     width: 2rem;
+        height: 2rem;
+    }
+}
+
+/*-----------------------desktop---------------------*/
+
+@media only screen and (min-width: 1200px){
+    .cholesterol-container{
+        margin-top: 8.5rem;
+        margin-bottom: 3rem;
+    }
+    
+    .cholesterol-heading{
+        line-height: 4rem;    
+    }
+    
+    .cholesterol-heading h1 {
+        font-size: 2.5rem;
+        margin-left:5rem;
+    }
+    
+    .cholesterol-content {
+        flex-direction: row;
+        margin-top: 4rem;
+    }
+    
+    .cholesterol-page-left-section {
+        gap: 3rem; 
+        margin-right: 3rem;
+    }
+    
+    .cholesterol-steps-textbox {
+        display: flex; 
+        gap:0; 
+        border-radius: 2rem; 
+        align-items: center;
+        width: 36rem;
+        height: 23rem;
+    }
+    
+    .cholesterol-step-image {
+        width: 7rem;
+        height: 13rem;
+        padding: 1rem;
+        border-radius: 1.5rem;
+        margin: 0 1rem 0 1rem;
+    }
+    
+    .cholesterol-page-left-section h2{
+        font-size: 1.5rem;
+    }
+    
+    .cholesterol-step-texts p {
+        font-size: 1.5rem;
+        margin: 1rem 0 1rem 0;
+    }
+    
+    .cholesterol-second-image{
+        width: 36rem;
+        height: 16rem;
+    }
+    
+    .cholesterol-page-right-section {
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .cholesterol-page-textbox {
+        width: 28rem;
+        height: 38rem;
+        margin-top: 2rem;
+    }
+    
+    .cholesterol-tick-image {
+        width: 8rem;
+        height: 8rem;
+    }
+    
+    .cholesterol-page-textbox h2 {
+        font-size: 1.8rem;
+    }
+    
+    .cholesterol-info, 
+    .cholesterol-level {
+        font-size: 1.5rem;
+    }
+    
+    .cholesterol-test-now-btn {
+        width: 12rem;
+        height: 4rem;
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
+    
+    .cholesterol-back-btn{
+        gap: 0; 
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+    
+    .cholesterol-back-arrow{
+        width: 2rem;
+        height: 2rem;
+    }  
+}

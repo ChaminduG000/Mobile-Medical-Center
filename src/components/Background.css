@@ -1,0 +1,25 @@
+.background-container {
+    position: fixed;
+    width: 100%;
+    /* max-width: 1200px; */
+    min-height: 100vh;
+    background-image: url('/public/images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -6;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    .background-container {
+        background-position: top left;
+        min-height: 100%; 
+    }
+}
+
+@media only screen and (min-width: 1000px)  {
+    .background-container {
+        background-position: left;  
+    }
+}

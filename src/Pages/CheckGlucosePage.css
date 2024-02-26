@@ -1,0 +1,325 @@
+.glucose-page{
+    display: flex;
+    flex-direction: column;
+}
+
+.glucose-page-container {
+    margin-top: 4.2rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.glucose-heading-bg {
+    width: 100%;
+    line-height: 2rem;
+    background: #BF94D4;
+}
+
+.glucose-heading-bg h1 {
+    color: #740A8F;
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+
+.glucose-page-content {
+    margin-top: 4rem; 
+    margin-left: 0; 
+    font-family: 'poppins';
+}
+
+.glucose-page-left-section {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    gap: 3rem; 
+}
+
+.glucose-test-first-image, .glucose-test-second-image {
+    border-radius: 2rem;
+}
+
+.glucose-test-first-image{
+    width: 20rem;
+    height: 18rem;
+}
+
+.glucose-test-second-image {
+    width: 20rem;
+    height: 10rem;
+}
+
+.glucose-page-left-section p {
+    color: #842EA2;
+    font-family: 'DM Serif Display', serif;
+    font-size: 1rem;
+    margin: 0 ;
+}
+
+
+.glucose-page-right-section{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 2rem 0 2rem;
+    gap: 0;
+}
+
+.glucose-page-textbox {
+    width: 20rem;
+    height: 25rem;
+    background: #D9C5F4;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+}
+
+.glucose-page-tick-image {
+    width: 6rem;
+    height: 6rem;
+}
+
+.glucose-page-textbox h2 {
+    color: #36174E;
+    font-family: 'DM Serif Display', serif;
+    font-size: 1rem;
+}
+
+.glucose-info, .glucose-level {
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+    font-size: 1rem;
+}
+
+.glucose-info {
+    color: #2BA1C7;
+}
+
+.glucose-level {
+    color: #AB0E0E;
+}
+
+.glucose-page-test-now-btn {
+    width: 10rem;
+    height: 3rem;
+    font-size: 1rem;
+    border-radius: 2rem;
+    background: #95C9F9;
+    cursor: pointer;
+    border: none;
+}
+
+.glucose-page-back-btn {
+    display: flex;
+    align-items: center;
+    justify-content:right;
+    gap: 0; 
+    color: #1B4E9B;
+    font-family: 'DM Serif Display', serif;
+    font-size: 1rem;
+    margin-top: 2rem; 
+    text-decoration: none;
+    margin-right: 2rem;
+}
+
+.glucose-page-back-arrow {
+    width: 1rem;
+    height: 1rem;
+}    
+
+/*------------------tab--------------------*/
+
+@media only screen and (min-width: 768px) { 
+
+    .glucose-page-container {
+        margin-top: 8.5rem;
+    }
+
+    .glucose-heading-bg {
+        width: 100%;
+        line-height: 4rem; 
+    }
+    
+    .glucose-heading-bg h1 {
+        font-size: 2.5rem;
+        margin-left: 5rem;
+    }
+    
+    .glucose-page-content {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 4rem;
+    }
+    
+    .glucose-page-left-section {
+        margin-left: 0;
+        align-items: center;
+        gap: 3rem; ; 
+    }
+    
+    .glucose-test-first-image, .glucose-test-second-image {
+        border-radius: 1rem;
+    }
+    
+    .glucose-test-first-image{
+        width: 30rem;
+        height: 28rem;
+    }
+
+    .glucose-test-second-image {
+        width: 30rem;
+        height: 15rem;
+    }
+    
+    .glucose-page-left-section p {
+        font-size: 1.3rem;
+        width: 80%;
+    }
+    
+    
+    .glucose-page-right-section{
+        margin-left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .glucose-page-textbox {
+        width: 30rem;
+        height: 35rem;
+        margin-top: 2rem;
+    }
+    
+    .glucose-page-tick-image {
+        width: 8rem;
+        height: 8rem;
+    }
+    
+    .glucose-page-textbox h2 {
+        font-size: 1.5rem;
+    }
+    
+    .glucose-info, .glucose-level {
+        font-size: 1.5rem;
+    }
+    
+    .glucose-page-test-now-btn {
+        width: 12rem;
+        height: 4rem;
+        font-size: 1.5rem;
+    }
+    
+    .glucose-page-back-btn {
+        gap: 0; 
+        font-size: 1.5rem;
+        margin-left: 26rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .glucose-page-back-arrow {
+        width: 2rem;
+        height: 2rem;
+    }    
+    
+}
+
+/*-----------------------desktop---------------------*/
+
+@media only screen and (min-width: 1200px){
+    .glucose-page-container {
+        margin-top: 8.5rem;
+        margin-bottom: 3rem;
+    }
+
+    .glucose-heading-bg {
+        width: 100%;
+        line-height: 4rem; 
+    }
+    
+    .glucose-heading-bg h1 {
+        font-size: 2.5rem;
+        margin-left: 5rem;
+    }
+    
+    .glucose-page-content {
+        flex-direction: row;
+        margin-top: 4rem;
+    }
+    
+    .glucose-page-left-section {
+        gap: 3rem; 
+        margin-right: 3rem;
+    }
+    
+    .glucose-test-first-image, .glucose-test-second-image {
+        border-radius: 2rem;
+    }
+    
+    .glucose-test-first-image{
+        width: 36rem;
+        height: 25rem;
+    }
+
+    .glucose-test-second-image {
+        width: 36rem;
+        height: 18rem;
+    }
+    
+    .glucose-page-left-section p {
+        font-size: 1.5rem;
+        width: 80%;
+    }
+    
+    
+    .glucose-page-right-section{
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .glucose-page-textbox {
+        width: 28rem;
+        height: 38rem;
+        margin-top: 2rem;
+    }
+    
+    .glucose-page-tick-image {
+        width: 8rem;
+        height: 8rem;
+    }
+    
+    .glucose-page-textbox h2 {
+        font-size: 1.8rem;
+    }
+    
+    .glucose-info, .glucose-level {
+        font-size: 1.5rem;
+    }
+    
+    .glucose-page-test-now-btn {
+        width: 12rem;
+        height: 4rem;
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
+    
+    .glucose-page-back-btn {
+        gap: 0; 
+        font-size: 1.5rem;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
+    
+    .glucose-page-back-arrow {
+        width: 2rem;
+        height: 2rem;
+    }  
+}

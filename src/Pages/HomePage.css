@@ -1,0 +1,140 @@
+.homepage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.homepage-container a {
+    text-decoration: none;
+}
+
+.homepage-container a:hover {
+    text-decoration: none;
+}
+
+.home-content {
+    justify-content: center;
+    margin-top: 2rem; 
+    margin-bottom: 2rem;
+}
+
+.home-left-column, .home-right-column {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; 
+}
+
+.home-left-column{
+    margin-bottom: 2rem;
+}
+
+.home-textbox {
+    width: 18rem;
+    height: 9rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    border-radius: 2rem;
+    padding: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.home-textbox h2{
+    font-size: 1rem;
+}
+
+.home-textbox p{
+    font-size: 1rem;
+}
+
+.home-textbox:hover {
+    transform: scale(1.05);
+}
+
+.home-textbox-image {
+    width: 4rem; 
+    height: 7.2rem; 
+    object-fit: cover;
+    padding: 0.5rem;
+}
+
+
+/*------------------responsive--------------------*/
+
+
+@media only screen and (min-width: 768px) {
+    
+    .home-content {
+        display: flex;
+        margin-top: 3rem; 
+        margin-bottom: 2rem;
+        gap: 2rem;
+        align-items: center;
+    }
+    
+    .home-left-column, .home-right-column {
+        gap: 2rem;
+    }
+
+    .home-textbox {
+        gap: 1rem;
+        padding: 5px;
+        width: 20rem;
+        height: 13rem;
+    }
+    
+    .home-left-column{
+        margin-bottom: 0;
+    }
+
+    .home-textbox h2{
+        font-size: 1.5rem;
+    }
+    
+    .home-textbox p{
+        font-size: 1.3rem;
+    }
+
+    .home-textbox-image {
+        width: 4rem; 
+        height: 9rem;         
+    }
+
+}
+
+/*--------------------desktop----------------------*/
+
+@media only screen and (min-width: 1200px) {
+    .home-content {
+        display: flex;
+        margin-top: 4rem; 
+        margin-bottom: 4rem;
+        gap: 5rem;
+    }
+    
+    .home-left-column, .home-right-column {
+        gap: 3rem;
+    }
+
+    .home-textbox {
+        gap: 2rem;
+        padding: 10px;
+        width: 30rem;
+        height: 18rem;
+    }
+    
+    .home-textbox h2{
+        font-size: 2rem;
+    }
+    
+    .home-textbox p{
+        font-size: 1.5rem;
+    }
+
+    .home-textbox-image {
+        width: 6rem; 
+        height: 12rem;
+        margin-left: 1.5rem;         
+    }
+} 

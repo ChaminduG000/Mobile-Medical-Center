@@ -1,0 +1,249 @@
+.report-share-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.report-share-box {
+    height: 10rem;
+    width: 100%;
+    max-width: 20rem; 
+    background: #fff;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.report-share-box-heading{
+    width: 20rem;
+    height: 3rem;
+    color: #8511A2;
+    font-family: DM Sans;
+    font-size: 1.3rem;
+    font-weight: 400;
+    background: #E0F9FF;
+}
+
+.report-share-box-content{
+    border-radius: 1rem;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    filter: blur(0px);
+    width: 20rem;
+    height:8rem; 
+}
+
+.report-share-box-content p {
+    margin: 10px 0;
+    color: #E4ADF8;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-weight: 400; 
+}
+
+
+.report-share-btn{
+    width: 8rem;
+    line-height: 3rem;
+    color: #FFF;
+    background: #9997F1;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-weight: 400; 
+    border-radius: 2rem;
+    margin-top: 4rem;
+    border: none;
+    margin-bottom: 4rem;
+    margin-top: 5rem;
+    margin-left: 8rem;
+}
+
+.report-share-icon{
+    margin-right: 0.5rem;
+    width: 1rem;
+    height: auto;
+}
+
+
+/* Search Bar styles */
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    padding: 0.5rem;
+    width: 80%;
+    height: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 3rem;
+    background: #E2EFFB;
+    /* stroke-width: 1px; */
+    /* background: #B5C9FC; */
+}
+
+.share-search-icon {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 1rem;
+    height: auto;
+}
+
+.search-text {
+    flex-grow: 1;
+    color: #8511A2;
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-weight: 400;  
+}
+
+.type-contact-info {
+    display: flex;
+    align-items: center;
+}
+
+.type-contact-info span {
+    text-decoration: underline;
+    color: #8517AB;
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-right: 2rem;
+}
+
+.vertical-line {
+    height: 100%;
+    width: 1px;
+    background-color: #ccc;
+    margin-right: 0.5rem;
+}
+
+
+/*-------------------------------tab screen-----------------------------------*/
+
+@media only screen and (min-width: 768px) {  
+
+    .report-share-box {
+        border-radius: 1rem;
+        margin-top: 4rem;
+        margin-left: 7rem;
+        height: 15rem;
+    }
+    
+    .report-share-box-heading{
+        width: 35rem;
+        height: 4rem;
+        font-size: 1.5rem;
+    }
+    
+    .report-share-box-content{
+        width: 35rem;
+        height:12rem; 
+
+    }
+    
+    .report-share-box-content p {
+        margin: 1rem 0;
+        font-size: 1.5rem;
+    }
+    
+    .report-share-btn{
+        width: 12rem;
+        line-height: 4rem;
+        font-size: 1.5rem;
+        margin-top: 8rem;
+        margin-left: 20rem;
+    }
+    
+    .report-share-icon{
+        margin-right: 1rem;
+        width: 1.5rem;
+        height: auto;
+    }
+    
+    
+    /* Search Bar styles */
+    .search-bar {
+        margin: 1rem;
+        padding: 1.5rem;
+        margin-top: 3rem;
+        margin-left: 3rem;
+    }
+    
+    .share-search-icon {
+        width: 1.5rem;
+        height: auto;
+    }
+    
+    .search-text {
+        font-size: 1.5rem;
+    }
+    
+    .type-contact-info {
+        display: flex;
+        align-items: center;
+    }
+    
+    .type-contact-info span {
+        font-size: 1.5rem;
+    }
+}
+
+
+/*-------------------------------desktop screen-----------------------------------*/
+
+@media only screen and (min-width: 1200px) {  
+
+    .report-share-box {
+        margin-top: 5rem;
+        margin-left: 15rem;
+    }
+    
+    .report-share-box-heading{
+        width: 50rem;
+        height: 5rem;
+        font-size: 2rem;
+    }
+    
+    .report-share-box-content{
+        width: 50rem;
+        height:15rem; 
+    }
+    
+    .report-share-box-content p {
+        margin: 1.5rem 0;
+        font-size: 2rem;
+    }
+    
+    .report-share-btn{
+        width: 15rem;
+        line-height: 4.5rem;
+        font-size: 2rem;
+        margin: 15rem 0 10rem 32rem;
+    }
+    
+    .report-share-icon{
+        margin-right: 1rem;
+        width: 2rem;
+        height: auto;
+    }
+    
+    
+    /* Search Bar styles */
+    .search-bar {
+        padding: 2rem;
+    }
+    
+    .share-search-icon {
+        width: 2rem;
+        height: auto;
+    }
+    
+    .search-text {
+        font-size: 2rem;
+    }
+    
+    .type-contact-info span {
+        font-size: 2rem;
+    }
+}

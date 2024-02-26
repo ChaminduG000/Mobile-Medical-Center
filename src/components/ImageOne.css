@@ -1,0 +1,60 @@
+.imageone-container {
+    position: absolute;
+    top: 3rem;
+    right: 0;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    z-index: -1;
+  }
+  
+  .image-one {
+    display:flex;
+    width: 8rem;
+    height: 8rem;
+  }
+  
+  .image-two {
+    position: absolute;
+    top: 5rem;
+    right: 2rem;
+    width: 11rem;
+    height: 11rem;
+  }
+   
+
+
+  @media only screen and (min-width: 768px) {
+    .imageone-container{
+      top: 4rem;
+    }
+ 
+
+  .image-one {
+    width: 12rem;
+    height: 13rem; 
+  }
+
+  .image-two {
+    top: 7rem;
+    right: 4rem;
+    width: 17rem;
+    height: 17rem;
+  }
+}  
+
+  @media only screen and (min-width: 1200px) {
+
+    .image-one {
+      width: 18rem;
+      height: 18rem; 
+    }
+  
+    .image-two {
+      top: 10rem;
+      right: 6rem;
+      width: 22rem;
+      height: 22rem;
+    }
+  }
+

@@ -1,0 +1,176 @@
+.qrscan-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.qrscan-content {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width:1200px;
+    margin: 1rem 1rem 3rem 2rem;
+    font-family: 'Frank Ruhl Libre', sans-serif;
+}
+
+.qrscan-phone-image {
+    width: 8rem;
+    height: 12rem;
+    margin: 3rem;
+}
+
+.qrscan-content span {
+    color: #774AC1;
+    font-size: 1rem;
+    width: 90%;
+    text-align: center;
+}
+
+.qrscan-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.qr-code {
+    display: flex;
+    width: 6rem;
+    height:6rem ;
+    margin-bottom: 8rem;
+}
+
+.qrscan-textbox-section {
+    margin-top: 2rem;
+    width: 60%;
+}
+
+.qrscan-textbox-section p{
+    color: #D097EB;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.mobile-input {
+    width: 12rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #9A12B1;
+    background: #FFF;
+    font-size: 0.8rem;
+    padding-left: 1rem;
+}
+
+.qrscan-link-button {
+    width: 12rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+    background: #CB93F7;
+    border: none;
+    color: #741284;
+    font-family: 'Libre Caslon Text', serif;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 3rem 2rem 3rem 0;
+}
+
+/*------------------------tab screen-----------------------------*/
+
+@media only screen and (min-width: 768px) {
+
+    .qrscan-content {
+        justify-content: center;
+    }
+    
+    .qrscan-phone-image {
+        width: 8rem;
+        height: 12rem;
+    }
+    
+    .qrscan-content span {
+        font-size: 1.5rem;
+        width: 80%;
+    }
+    
+    .qrscan-row {
+        margin-left: 5rem;
+        gap: 1rem;
+    }
+    
+    .qr-code {
+        width: 8rem;
+        height:8rem ;
+        margin-bottom: 7rem;
+    }
+    
+    .qrscan-textbox-section {
+        margin-top: 3rem;
+        width: 80%;
+    }
+    
+    .qrscan-textbox-section p{
+        font-size: 1.2rem;
+    }
+    
+    .mobile-input {
+        width: 20rem;
+        height: 3.5rem;
+        font-size: 1.2rem;
+    }
+    
+    .qrscan-link-button {
+        width: 15rem;
+        height: 4rem;
+        border-radius: 2rem;
+        font-size: 1.2rem;
+    }
+    
+}
+
+
+
+/*------------------------desktop-----------------------------*/
+
+@media only screen and (min-width: 1200px) {
+    
+    .qrscan-phone-image {
+        width: 10rem;
+        height: 14rem;
+    }
+    
+    .qrscan-content span {
+        font-size: 1.8rem;
+    }
+    
+    .qrscan-row {
+        margin-left: 10rem;
+    }
+    
+    .qr-code {
+        width: 9rem;
+        height:9rem ;
+        margin-bottom: 7rem;
+    }
+    
+    .qrscan-textbox-section {
+        width: 80%;
+    }
+    
+    .qrscan-textbox-section p{
+        font-size: 1.5rem;
+    }
+    
+    .mobile-input {
+        width: 30rem;
+        height: 4rem;
+        font-size: 1.5rem;
+    }
+    
+    .qrscan-link-button {
+        width: 18rem;
+        height: 4rem;
+        font-size: 1.5rem;
+    }
+    
+}

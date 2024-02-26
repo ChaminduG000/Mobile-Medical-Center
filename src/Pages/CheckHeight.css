@@ -1,0 +1,370 @@
+.height-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.height-page-container{
+    margin-top: 4.2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.height-heading {
+    width: 100%;
+    line-height: 2rem;
+    background: #BF94D4;  
+}
+
+.height-heading h1 {
+    color: #740A8F;
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+
+.height-page-content {
+    margin-top: 4rem;
+    margin-left: 0; 
+    font-family: 'poppins';
+}
+
+.height-page-left-section {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    gap: 3rem; 
+}
+
+.height-steps-textbox {
+    display: flex; 
+    gap: 1rem; 
+    border: 1px solid #ccc; 
+    border-radius: 2rem; 
+    width: 20rem;
+    height: 18rem;
+    background: #C0AAFE;
+}
+
+.height-step-image {
+    width: 4rem;
+    height: 12rem;
+    margin: 3rem 0.3rem 4rem 1rem;
+    border-radius: 1rem;
+}
+
+.height-step-texts p {
+    color: #670B92;
+    font-size: 1rem;
+}
+
+.height-second-image{
+    width: 20rem;
+    height: 10rem;
+}
+
+.height-page-left-section p{
+    color: #842EA2;
+    font-family: DM Serif Display;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.height-step-texts {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 1rem 1rem 0;
+}
+
+.height-page-right-section {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 2rem 3rem 2rem;
+    gap: 2rem;
+}
+
+.height-page-textbox {
+    width: 20rem;
+    height: 25rem;
+    background: #D9C5F4;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.height-tick-image {
+    width: 6rem;
+    height: 6rem;
+}
+
+.height-page-textbox h2 {
+    color: #36174E;
+    font-family: 'DM Serif Display', serif;
+    font-size: 1rem;
+}
+
+.height-info, 
+.height-level {
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+    font-size: 1rem;
+}
+
+.height-info {
+    color: #2BA1C7;
+}
+
+.height-level {
+    color: #AB0E0E;
+}
+
+.height-test-now-btn {
+    width: 10rem;
+    height: 3rem;
+    border-radius: 2rem;
+    background: #95C9F9;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+}
+
+.height-back-btn{
+    display: flex;
+    align-items: center;
+    justify-content:right;
+    gap: 0; 
+    color: #1B4E9B;
+    font-family: 'DM Serif Display', serif;
+    font-size: 1rem; 
+    text-decoration: none;
+    margin-right: 2rem;
+}
+
+.height-back-arrow{
+    width: 1rem;
+    height: 1rem;
+}
+
+
+/*------------------tab--------------------*/
+
+@media only screen and (min-width: 768px) {
+    .height-page-container{
+        margin-top: 6.5rem;
+    }
+
+    .height-heading {
+        width: 100%;
+        line-height: 4rem; 
+    }
+    
+    .height-heading h1 {
+        font-size: 2.5rem;
+        margin-left:3rem;
+    }
+    
+    .height-page-content {
+        flex-direction: column;
+        margin-top: 4rem;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        /* margin-left: 3rem; */
+    }
+    
+    .height-page-left-section {
+        gap: 3rem; 
+        margin-left: 0;
+        align-items: center;
+    }
+    
+    .height-steps-textbox {
+        gap:0; 
+        border-radius: 1rem; 
+        align-items: center;
+        width: 30rem;
+        height: 28rem;
+    }
+    
+    .height-step-image {
+        width: 8rem;
+        height: 20rem;
+        padding: 1rem;
+        border-radius: 1.5rem;
+    }
+    
+    .height-second-image{
+        width: 30rem;
+        height: 15rem;
+    }
+
+    .height-page-left-section p{
+        font-size: 1.3rem;
+    }
+    
+    .height-step-texts {
+        margin: 1rem;
+    }
+    
+    .height-step-texts p {
+        font-size: 1.3rem;
+    }
+    
+    .height-page-right-section {
+        margin-left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .height-page-textbox {
+        width: 30rem;
+        height: 35rem;
+        margin-top: 2rem;
+    }
+    
+    .height-tick-image {
+        width: 8rem;
+        height: 8rem;
+    }
+    
+    .height-page-textbox h2 {
+        font-size: 1.5rem;
+    }
+    
+    .height-info, 
+    .height-level {
+        font-size: 1.5rem;
+    }
+    
+    .height-test-now-btn {
+        width: 12rem;
+        height: 4rem;
+        font-size: 1.5rem;
+    }
+    
+    .height-back-btn{ 
+        gap: 0; 
+        font-size: 1.5rem;
+        margin-left: 26rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .height-back-arrow{
+        width: 2rem;
+        height: 2rem;
+    }
+}
+
+
+/*-----------------------desktop---------------------*/
+
+@media only screen and (min-width: 1200px){
+    .height-page-container{
+        margin-top: 8.5rem;
+        margin-bottom: 3rem;
+    }
+
+    .height-heading {
+        width: 100%;
+        line-height: 4rem; 
+    }
+    
+    .height-heading h1 {
+        font-size: 2.5rem;
+        margin-left: 5rem;
+    }
+    
+    .height-page-content {
+        flex-direction: row;
+        margin-top: 4rem;
+    }
+    
+    .height-page-left-section {
+        gap: 3rem; 
+        margin-right: 3rem;
+    }
+    
+    .height-steps-textbox {
+        gap:0; 
+        border-radius: 2rem; 
+        align-items: center;
+        width: 36rem;
+        height: 25rem;
+    }
+    
+    .height-step-image {
+        width: 8rem;
+        height: 20rem;
+        padding: 1rem;
+        border-radius: 1.5rem;
+    }
+    
+    .height-second-image{
+        width: 36rem;
+        height: 16rem;
+    }
+
+    .height-page-left-section p{
+        font-size: 1.5rem;
+    }
+    
+    .height-step-texts {
+        margin: 1rem;
+    }
+    
+    .height-step-texts p {
+        font-size: 1.5rem;
+        /* font-family: 'poppins'; */
+    }
+    
+    .height-page-right-section {
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .height-page-textbox {
+        width: 28rem;
+        height: 38rem;
+        margin-top: 2rem;
+    }
+    
+    .height-tick-image {
+        width: 8rem;
+        height: 8rem;
+    }
+    
+    .height-page-textbox h2 {
+        font-size: 1.8rem;
+    }
+    
+    .height-info, 
+    .height-level {
+        font-size: 1.5rem;
+    }
+    
+    .height-test-now-btn {
+        width: 12rem;
+        height: 4rem;
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
+    
+    .height-back-btn{ 
+        gap: 0; 
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+    
+    .height-back-arrow{
+        width: 2rem;
+        height: 2rem;
+    }
+}
